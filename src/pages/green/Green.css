@@ -1,0 +1,33 @@
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: green; /* The green color from the second image */
+    padding: 10px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Optional: rounded corners */
+    z-index: 1;
+}
+.large-icon
+{
+font-size: 62px
+}
+.map-image {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply; /* Applies the green tint to the image */
+    opacity: 0.8; /* Optional: Controls the transparency of the image */
+    z-index: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+  
+    z-index: 2;
+}
